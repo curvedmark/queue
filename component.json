@@ -4,9 +4,6 @@
   "version": "1.0.5",
   "description": "function job queue with concurrency and timeout support",
   "keywords": ["queue"],
-  "dependencies": {
-    "component/emitter": "*"
-  },
   "scripts": ["index.js"],
   "main": "index.js",
   "license": "MIT"

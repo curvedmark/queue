@@ -1,11 +1,5 @@
 
 /**
- * Module dependencies.
- */
-
-var Emitter = require('emitter');
-
-/**
  * Expose `Queue`.
  */
 
@@ -28,12 +22,6 @@ function Queue(options) {
   this.pending = 0;
   this.jobs = [];
 }
-
-/**
- * Mixin emitter.
- */
-
-Emitter(Queue.prototype);
 
 /**
  * Return queue length.
